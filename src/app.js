@@ -1,9 +1,16 @@
-import React from "react"
+import { createElement as h, Component } from "react"
 import ReactDom from "react-dom"
 
-const h = React.createElement
+const appState = {
+  //
+}
 
-class App extends React.Component {
+class App extends Component {
+  constructor(props) {
+    super(props)
+    this.state = appState
+  }
+
   render() {
     return h("div", null, "hello react")
   }
