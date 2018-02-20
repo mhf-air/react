@@ -1,3 +1,5 @@
+// @flow
+
 import { Root } from "../root/a.js"
 import { About } from "../root/about/a.js"
 

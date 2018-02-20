@@ -1,16 +1,13 @@
+// @flow
+
 import ReactDom from "react-dom"
 import { createElement as h, Component } from "react"
 import { BrowserRouter as Router, Route, Link } from "react-router-dom"
 import { routes } from "./conf/routes.js"
 
-const appState = {
-  //
-}
-
-class App extends Component {
+class App extends Component < any > {
   constructor(props) {
     super(props)
-    this.state = appState
   }
 
   render() {
