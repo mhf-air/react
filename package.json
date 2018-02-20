@@ -30,6 +30,7 @@
     "babelify": "^8.0.0",
     "browserify": "^16.0.0",
     "flow-bin": "^0.66.0",
+    "flow-typed": "^2.3.0",
     "live-server": "^1.2.0",
     "npm-run-all": "^4.1.2",
     "uglify-js": "^3.3.10",

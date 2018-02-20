@@ -19,4 +19,7 @@ class App extends Component < any > {
   }
 }
 
-ReactDom.render(h(App), document.getElementById("app"))
+const appNode = document.getElementById("app")
+if (appNode !== null) {
+  ReactDom.render(h(App), appNode)
+}
