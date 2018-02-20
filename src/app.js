@@ -6,10 +6,6 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom"
 import { routes } from "./conf/routes.js"
 
 class App extends Component < any > {
-  constructor(props) {
-    super(props)
-  }
-
   render() {
     return h(Router, null,
       h("div", null,
