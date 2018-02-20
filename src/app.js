@@ -1,5 +1,7 @@
-import { createElement as h, Component } from "react"
 import ReactDom from "react-dom"
+import { createElement as h, Component } from "react"
+import { BrowserRouter as Router, Route, Link } from "react-router-dom"
+import { routes } from "./conf/routes.js"
 
 const appState = {
   //
@@ -12,7 +14,11 @@ class App extends Component {
   }
 
   render() {
-    return h("div", null, "hello react")
+    return h(Router, null,
+      h("div", null,
+        routes.map((route, i) => {
+          return h(Route, { key: i, ...route })
+        })))
   }
 }
 

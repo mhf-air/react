@@ -7,7 +7,8 @@
   "dependencies": {
     "axios": "^0.17.1",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2"
   },
   "scripts": {
     "watch": "watchify -vd -e src/app.js -o dist/app.js",
