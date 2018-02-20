@@ -1,10 +1,10 @@
 // @flow
 
-import { Root } from "../root/a.js"
+import { Main } from "../root/main/a.js"
 import { About } from "../root/about/a.js"
 
 export const routes = [
-  { path: "/", exact: true, component: Root },
+  { path: "/", exact: true, component: Main },
 
   { path: "/about", component: About },
 ]
